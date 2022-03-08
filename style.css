@@ -9,7 +9,7 @@ h3 {
   font-size: 25px;
 }
 h2 {
-  font-size: 30px;
+  font-size: 40px;
 }
 p {
   font-size: 20px;
@@ -22,7 +22,7 @@ p {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
   height: 500px;
-  margin-bottom: 300px;
+  margin-bottom: 250px;
 }
 .half-width {
   padding-left: 5%;
@@ -50,4 +50,40 @@ button {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+  margin-bottom: 200px;
+  height: 500px;
+}
+.experience-area {
+  background: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-bottom: 150px;
+}
+.wrap {
+  display: flex;
+}
+
+.experience-color {
+  color: firebrick;
+}
+.Exprience-item {
+  width: 40%;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding: 20px;
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 10px;
+}
+#Full-Stack {
+  border-left: 7px solid;
+  border-image: linear-gradient(ForestGreen, DarkTurquoise);
+  border-image-slice: 1;
+}
+#Intermedait {
+  border-left: 7px solid;
+  border-image: linear-gradient(Purple, Magenta);
+  border-image-slice: 1;
+}
+footer {
+  text-align: center;
 }
